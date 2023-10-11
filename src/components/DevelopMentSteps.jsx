@@ -94,22 +94,22 @@ const DevelopMentSteps = () => {
         <div className=" xxmm:w-[95%] xsm:h-[93%] xxmm:h-[81%] xxs:w-full xxs:h-full  flex flex-col items-center justify-start z-0">
           {/* BAR----1\ */}
           <div
-            className="w-full lg:h-[10rem] md:h-[12rem] sm:h-[12rem]  xs:h-[11rem] xsm:h-[14rem] xxmm:h-[17rem] xxs2:h-[16rem] xxs:h-[17rem]
+            className="w-full lg:h-[10rem] md:h-[12rem] sm:h-[12rem]  xs2:h-[11rem] xs:h-[11.5rem]  xsm:h-[14rem] xxmm:h-[17rem] xxs2:h-[16rem] xxs:h-[17rem]
             md:mt-[2.1rem] sm:mt-[1.2rem]  xsm:mt-[0.7rem] mt-1 border-2  border-[#0064B0] border-dashed border-l-0 border-b-0 "
           ></div>
           {/* BAR---2\ */}
 
-          <div className="w-full lg:h-[7rem] md:h-[6rem] sm:h-[5rem] xs:h-[5rem] xsm:h-[5rem] xxs2:h-[5rem] xxmm:h-[6rem] xxs:h-[5rem] border-2  border-[#0064B0] border-dashed border-r-0 "></div>
+          <div className="w-full lg:h-[7rem] md:h-[6rem] sm:h-[5rem] xs2:h-[5rem] xs:h-[6rem] xsm:h-[5rem] xxs2:h-[5rem] xxmm:h-[6rem] xxs:h-[5rem] border-2  border-[#0064B0] border-dashed border-r-0 "></div>
           {/* BAR---3\ */}
 
-          <div className="w-full lg:h-[10rem] md:h-[9rem] sm:h-[7.6rem] xs:h-[6rem] xsm:h-[6rem] xxmm:h-[7rem] xxs2:h-[6.5rem] xxs:h-[6rem] relative">
+          <div className="w-full lg:h-[10rem] md:h-[9rem] sm:h-[7.6rem] xs2:h-[6rem]  xs:h-[6.7rem] xsm:h-[6rem] xxmm:h-[7rem] xxs2:h-[6.5rem] xxs:h-[6rem] relative">
             <div className="absolute inset-0 border-2  border-[#0064B0] border-dashed border-l-0 border-t-0"></div>
             <div className="absolute top-6 left-0  sm:w-[15%] h-full bg-white"></div>
           </div>
 
           {/* BAR--4\ */}
 
-          <div className="w-full relative sm:h-0 sm:w-0   xs:h-[6.5rem] xsm:h-[6rem] xxmm:h-[8rem] xxs2:h-[6rem] xxs:h-[6rem] border-2  border-[#0064B0] border-dashed border-t-0 border-r-0 ">
+          <div className="w-full relative sm:h-0 sm:w-0   xs2:h-[6.5rem] xs:h-[6rem] xsm:h-[6rem] xxmm:h-[8rem] xxs2:h-[6rem] xxs:h-[6rem] border-2  border-[#0064B0] border-dashed border-t-0 border-r-0 ">
             <div className="absolute top-6 right-0  w-[15%] h-full bg-white"></div>
           </div>
         </div>

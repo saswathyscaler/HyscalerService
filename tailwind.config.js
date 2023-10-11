@@ -10,6 +10,7 @@ export default {
         custom: "10px 10px 5px 1px rgba(0, 100, 176, 1)",
       },
       screens: {
+        xs2:"484px",
         xs: "468px",
 
         xsm: "420px",

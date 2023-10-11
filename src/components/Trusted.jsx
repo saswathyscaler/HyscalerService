@@ -12,7 +12,7 @@ const Trusted = () => {
       backgroundImage: `url(${wave})`,
       backgroundSize: "100% 50%",
       backgroundRepeat: "no-repeat", 
-      filter: "brightness(100%)"
+    
     };
   
 
