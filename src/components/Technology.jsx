@@ -16,7 +16,7 @@ import "react-tabs/style/react-tabs.css";
 import "../styles/tech.css";
 
 import reactJs from "../assets/technologyF/react.svg";
-import js from "../assets/technologyF/js.svg";
+import next from "../assets/technologyF/next.svg";
 import html from "../assets/technologyF/html.svg";
 import css from "../assets/technologyF/css.svg";
 import angular from "../assets/technologyF/angular.svg";
@@ -30,8 +30,20 @@ import ruby from "../assets/techB/ruby.svg";
 
 import postgreesql from "../assets/techData/postgresql.svg";
 import mongo from "../assets/techData/mongodb.svg";
+import sqll from "../assets/techData/sqll.svg";
+import firebase from "../assets/techData/firebase.svg";
 
 import graphql from "../assets/graphql.svg";
+import word from '../assets/other/word.svg'
+import dot from '../assets/other/dotnet.svg'
+import iot from '../assets/other/iot.svg'
+import rails from '../assets/other/rails.svg'
+import go from '../assets/other/go.png'
+import ts from '../assets/other/ts.svg'
+import js from '../assets/other/js.svg'
+import docker from '../assets/other/docker.svg'
+import kuber from '../assets/other/kuber.svg'
+
 const Technology = () => {
   const appDev = [
     { path: apple, label: "Apple" },
@@ -47,9 +59,9 @@ const Technology = () => {
   ];
   const frontend = [
     { path: reactJs, label: "reactJs" },
+    { path: next, label: "next" },
     { path: angular, label: "angular" },
     { path: vue, label: "vue" },
-    { path: js, label: "js" },
     { path: css, label: "css" },
     { path: html, label: "html" },
   ];
@@ -68,11 +80,21 @@ const Technology = () => {
   const database = [
     { path: postgreesql, label: "postgreesql" },
     { path: mongo, label: "mongo" },
+    { path: firebase, label: "firebase" },
+    { path: sqll, label: "mongo" },
   ];
   const others = [
     { path: graphql, label: "graphql" },
-    { path: graphql, label: "graphql" },
-  ];
+    { path: word, label: "word" },
+    { path: dot, label: "dotnet" },
+    { path: iot, label: "iot" },
+    { path: rails, label: "rails" },
+    { path: docker, label: "docker" },
+    { path: kuber, label: "kuber" },
+    { path: go, label: "go" },
+    { path: ts, label: "ts" },
+    { path: js, label: "js" },
+];
 
   const [selectedTab, setSelectedTab] = useState(0);
 

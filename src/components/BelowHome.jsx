@@ -22,7 +22,7 @@ const BelowHome = () => {
             development services.
           </h3>
 
-          <button  className="lg:w-[200px]  sm:w-[170px] xxs:w-[140px] text-[#0064B0]  md:h-[60px] xsm:h-[55px] xxs:h-[50px] rounded-[6px] border-[2px] flex justify-center items-center  border-[#1255A1]  hover:bg-[#1255A1]
+          <button  className="lg:w-[180px]  sm:w-[160px] xxs:w-[140px] text-[#0064B0]  md:h-[49px] xsm:h-[49px] xxs:h-[50px] rounded-[6px] border-[2px] flex justify-center items-center  border-[#1255A1]  hover:bg-[#1255A1]
            hover:text-white transition-all duration-[600ms] ease-in-out cursor-pointer tracking-normal font-[700]  leading-[24.38px] sm:text-[14px] xxs:text-[12px] ">
               Consult Our Experts
             </button>
