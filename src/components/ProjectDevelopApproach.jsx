@@ -37,7 +37,7 @@ const ProjectDevelopApproach = () => {
   return (
     <main className="w-full 2xl:pl-60 xl:pl-40 lg:pl-20 md:pl-10 2xl:pr-60 xl:pr-40 lg:pr-20 md:pr-10 sm:px-10 px-5 z-30 bg-[#fff] my-10">
       <div className="flex flex-col gap-y-9">
-      <h1 className="text-black lg:text-[42px] font-[800] lg:leading-[50px] mt-8 md:text-[35px]  md:leading-[40px] sm:text-[25px]  sm:leading-[30px]  xs:text-[20px]  xs:leading-[25px] xxs:leading-[28px] xxs:text-[20px] ">
+      <h1 className="text-black lg:text-[30px] w-[90%]  md:text-[32px] sm:text-[25px] xs:text-[20px] xxs:text-[20px]  font-[800]  mt-8   sm:leading-[40px]   xs:leading-[25px] xxs:leading-[28px]  ">
             Choosing the Right Project Development Approach for
           </h1>
 
@@ -49,19 +49,19 @@ const ProjectDevelopApproach = () => {
             >
               <div className="flex  gap-3">
                 <div>
-                  <p className="bg-[#1953FF] sm:w-14 sm:p-3 xxs:p-1  sm:h-14 xxs:w-12 xxs:h-12 flex justify-center items-center rounded-full">
+                  <span className="bg-[#1953FF] sm:w-14 sm:p-3 xxs:p-1  sm:h-14 xxs:w-12 xxs:h-12 flex justify-center items-center rounded-full">
                     <img
                       src={item.icon}
                       alt="Agile Icon"
                       className="sm:w-10 sm:h-10 xxs:w-7 xxs:h-7"
                     />
-                  </p>
+                  </span>
                 </div>
                 <div className="flex flex-col sm:gap-y-4 xxs:gap-y-2">
-                  <h2 className="font-[700]  leading-7 lg:text-[27px] md:text-[25px] xsm:text-[20px] xxs:text-[14px]   text-[#000]">
+                  <h2 className="font-[700]  leading-7  md:text-[25px] xsm:text-[20px] xxs:text-[18px]   text-[#000]">
                     {item.heading}
                   </h2>
-                  <p className="text-[#495459] font-[500] text-[16px] leading-6">
+                  <p className="text-[#495459] font-[500] md:text-[16px] text-[14px] sm:leading-6 leading-5">
                     {expanded[index]
                       ? item.description
                       : item.description.split(" ").slice(0, 17).join(" ")}

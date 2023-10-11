@@ -7,7 +7,6 @@ import outsource from "../assets/developServices/outsourcing.svg";
 import ongoing from "../assets/developServices/ongoing.svg";
 
 const DevelopmentServices = () => {
-
   const [expanded, setExpanded] = useState([]);
 
   const toggleExpand = (index) => {
@@ -61,31 +60,36 @@ const DevelopmentServices = () => {
 
   return (
     <main className=" w-full 2xl:pl-60 xl:pl-40 lg:pl-20 md:pl-10  2xl:pr-60 xl:pr-40 lg:pr-20 md:pr-10 sm:px-10 px-5 z-30 my-10">
-      <div className="flex flex-col gap-y-6  ">
-        <div className="mt-5">
-        <h1 className="text-black lg:text-[42px] font-[800] lg:leading-[50px] mt-8 md:text-[35px]  md:leading-[40px] sm:text-[25px]  sm:leading-[30px]  xs:text-[20px]  xs:leading-[25px] xxs:leading-[28px] xxs:text-[20px] ">            Our Software Development Services Offerings
+      <div className="flex flex-col gap-y-3 ">
+       
+          <h1 className="text-black lg:text-[30px]   md:text-[32px] sm:text-[25px] xs:text-[20px] xxs:text-[20px]  font-[800] mt-8     sm:leading-[35px]   xs:leading-[25px] xxs:leading-[28px]">
+            {" "}
+            Our Software Development Services Offerings
           </h1>
 
-          <div className="text-gray-600  text-base xl:leading-8 lg:text-[18px] font-[500]   md:text-[16px] xxs:leading-7 xxs:text-sm  mt-3 lg:mt-3   ">
-
-            
+          <p className="text-gray-600  text-base xsm:leading-7 font-[500]   md:text-[16px] xxs:leading-5 xxs:text-sm    ">
             At HyScaler, we offer a comprehensive suite of software development
             services tailored to meet your business needs. Our range of services
             includes:
-          </div>
-        </div>
-
+          </p>
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3   gap-5  ">
           {divContent.map((item, index) => (
             <div
               key={index}
               className="w-full  py-4 px-2    flex flex-col items-center gap-y-2 justify-start border-2  "
             >
-              <img src={item.icon} alt={item.title} className="sm:w-16 sm:h-16 w-14 h-14 " />
-              <h3 className="sm:text-[24px] xxs:text-[20px]  text-[#000] font-[700] leading-1 text-center">
-                {item.title}
-              </h3>
-              <p className="text-center sm:text-[18px] text-[14px] text-[#495459] font-[500] leading-6 sm:leading-7">{item.descriptions}</p>
+              <img
+                src={item.icon}
+                alt={item.title}
+                className="sm:w-16 sm:h-16 w-14 h-14 "
+              />
+              <h1 className="text-[1rem]  text-center md:text-[1.2rem] xl:text-[1.3rem] font-semibold my-3">
+              {item.title}
+              </h1>
+              <p className="text-center lg:text-[18px] sm:text-[15px] text-[14px] text-[#495459] font-[500] leading-6 sm:leading-7">
+                {item.descriptions}
+              </p>
             </div>
           ))}
         </div>

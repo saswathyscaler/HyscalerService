@@ -13,22 +13,30 @@ import BlogPost from "./components/BlogPost";
 import SuccessStories from "./components/SuccessStories";
 
 
+
 function App() {
   return (
     <section className=" w-full">
       <Home />
       <BelowHome />
-      <GridView />
+
+
+
+
+
+
+
+     <GridView />
       <DevelopMentSteps />
       <Trusted />
       <Technology />
-      
-
-      <DevelopmentServices />
+     <DevelopmentServices />
       <ReadyToChange />
       <ProjectDevelopApproach />
       <Questions />
       <BlogPost />
+ 
+
     </section>
   );
 }

@@ -65,13 +65,13 @@ const Questions = () => {
   return (
     <main className="w-full 2xl:pl-60 xl:pl-40 lg:pl-20 md:pl-10 2xl:pr-60 xl:pr-40 lg:pr-20 md:pr-10 sm:px-10 px-5 z-30 bg-[#fff] py-6">
       <div className="flex flex-col items-center justify-center text-center gap-y-14">
-        <div>
-          <h1 className="font-[800] lg:text-[36px] sm:text-[30px] xxs:text-[22px]  leading-5 text-black">
+
+      <h1 className="text-black text-center lg:text-[30px] w-[90%]  md:text-[32px] sm:text-[25px] xs:text-[20px] xxs:text-[20px]  font-[800]  mt-8   sm:leading-[40px]   xs:leading-[25px] xxs:leading-[28px]  ">
             Frequently Asked Questions (FAQs)
           </h1>
-        </div>
+      
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-3">
+        <div className="grid grid-cols-1  md:grid-cols-2 gap-3">
           {faqData.map((faq, index) => (
             <div className="w-full bg-[#F0F6FE] rounded-[10px]" key={index}>
               <div

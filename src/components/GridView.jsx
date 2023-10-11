@@ -118,17 +118,19 @@ const GridView = () => {
   };
   return (
     <main className="bg-[#0064B0]  text-white flex flex-col gap-3  h-auto pb-[45px]  w-full 2xl:pl-60 xl:pl-40 lg:pl-20 md:pl-10  2xl:pr-60 xl:pr-40 lg:pr-20 md:pr-10 sm:px-10 px-5  my-10 ">
-      <div className="flex flex-col gap-y-6">
-        <h1 className="text-white lg:text-[42px] font-[800] lg:leading-[50px] mt-8 md:text-[35px]  md:leading-[40px] sm:text-[25px]  sm:leading-[30px]  xs:text-[20px]  xs:leading-[25px] xxs:leading-[28px] xxs:text-[20px] text-center ">
+      <div className="flex flex-col gap-y-3">
+        <h1 className="text-white text-center lg:text-[30px]   md:text-[32px] sm:text-[25px] xs:text-[20px] xxs:text-[20px]  font-[800] mt-8     sm:leading-[35px]   xs:leading-[25px] xxs:leading-[28px]">
           Our Competences Span Across 30+ Industries
         </h1>
-        <div className="text-white text-base xl:leading-8 lg:text-[18px] font-[500]   md:text-[16px] xxs:leading-7 xxs:text-sm  mt-3 lg:mt-3 text-center     ">
+        <p className="text-white text-center text-base md:leading-8 xsm:leading-7 font-[500]   md:text-[16px] xxs:leading-5 xxs:text-sm    ">
 
+
+       
           At HyScaler, we understand that every industry has its unique
           challenges and requirements. That's why we excel in a wide range of
           domains, ensuring that our software solutions are tailored to meet
           your specific needs.
-        </div>
+        </p>
 
         <div className="grid grid-cols-2 xsm:grid-cols-3 md:grid-cols-4 gap-3">
           {items.map((item) => (
