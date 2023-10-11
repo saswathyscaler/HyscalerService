@@ -2,14 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-*{  
-    /* margin: 0 ;  */
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
+* {
+  /* margin: 0 ;  */
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 
 /* Add this CSS to your stylesheet */
 .react-tabs__tab:focus {
   outline: none !important;
+}
+
+.answerContainer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 300ms ease-in-out;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.animate {
+  max-height: 20rem;
 }

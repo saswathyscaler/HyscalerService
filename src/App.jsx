@@ -17,15 +17,8 @@ import SuccessStories from "./components/SuccessStories";
 function App() {
   return (
     <section className=" w-full">
-      <Home />
+     {/*  <Home />
       <BelowHome />
-
-
-
-
-
-
-
      <GridView />
       <DevelopMentSteps />
       <Trusted />
@@ -33,9 +26,9 @@ function App() {
      <DevelopmentServices />
       <ReadyToChange />
       <ProjectDevelopApproach />
+      <BlogPost /> */}
+      
       <Questions />
-      <BlogPost />
- 
 
     </section>
   );
