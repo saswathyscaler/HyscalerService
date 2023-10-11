@@ -77,7 +77,7 @@ const DevelopmentServices = () => {
           {divContent.map((item, index) => (
             <div
               key={index}
-              className="w-full  py-4 px-2    flex flex-col items-center gap-y-2 justify-start border-2  "
+              className="w-full  py-4 px-2  rounded-lg  flex flex-col items-center gap-y-2 justify-start border-2  "
             >
               <img
                 src={item.icon}

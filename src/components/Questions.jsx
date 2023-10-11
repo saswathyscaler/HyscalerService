@@ -73,15 +73,15 @@ const Questions = () => {
 
         <div className="grid grid-cols-1  md:grid-cols-2 gap-3">
           {faqData.map((faq, index) => (
-            <div className="w-full bg-[#F0F6FE] rounded-[10px]" key={index}>
-              <div
+            <div className="w-full bg-[#F0F6FE] rounded-[10px] " key={index}>
+            <div
                 className="p-3 flex justify-between items-center cursor-pointer"
-                onClick={() => toggleAnswer(index)}
               >
                 <p className="text-left w-[80%] font-semibold leading-6 text-[15px] text-[#000]">
                   {faq.question}
                 </p>
                 <button
+                onClick={() => toggleAnswer(index)}
                   className="w-6 h-6 text-center flex justify-center items-center bg-blue-500 rounded-full focus:outline-none"
                 >
                   {showAnswers[index] ? (
