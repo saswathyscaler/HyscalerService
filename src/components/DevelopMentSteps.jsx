@@ -1,25 +1,37 @@
 import React from "react";
-import devLogo from "../assets/devlogo.png";
+import planning from "../assets/devsteps/planing.svg";
+import deploy from "../assets/devsteps/deploy.svg";
+import design from "../assets/devsteps/design.svg";
+import support from "../assets/devsteps/support.svg";
+import development from "../assets/devsteps/development.svg";
+import testing from "../assets/devsteps/testing.svg";
 
 const DevelopMentSteps = () => {
   const divContent = [
     {
       title: "Planning",
+      icon: planning,
     },
     {
       title: "Design",
+      icon: design,
     },
     {
       title: "Development",
+      icon: development,
     },
     {
       title: "Support",
+      icon: support,
     },
     {
       title: "Deployment",
+      icon: deploy,
+
     },
     {
       title: "Testing",
+      icon: testing,
     },
   ];
 
@@ -79,7 +91,7 @@ const DevelopMentSteps = () => {
                 className="  lg:h-[8rem]  md:h-[7rem] sm:h-[6rem]  xsm:w-[90%] xxs:h-[5rem]  border-2 border-[#0068FF] rounded-[15px] flex flex-col items-center justify-center shadow-custom bg-white"
               >
                 <img
-                  src={devLogo}
+                  src={item.icon}
                   alt={item.title}
                   className="md:w-10 xsm:w-8 xxs:w-7"
                 />
