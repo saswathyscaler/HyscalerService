@@ -1,31 +1,9 @@
-// import Navbar from "./Navbar";
-// import bg from "../assets/bg1.png";
 
-// const Home = () => {
-//   const bgImageStyle = {
-//     backgroundImage: `url(${bg})`,
-//     backgroundSize: "cover",
-//     backgroundRepeat: "no-repeat",
-//     width: "100%",
-//   };
-
-//   return (
-//     <div>
-//       <div className=" text-white min-h-screen  " >
-//         <Navbar />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Home;
 
 import wave from '../assets/homeVector.png'
 import React from "react";
 import { useState, useEffect } from "react";
-import "../styles/mouse.css";
 import mouse from "../assets/mouse.svg";
-import Navbar from "./Navbar";
 
 const Home = () => {
 

@@ -9,15 +9,13 @@ import ReadyToChange from "./components/ReadyToChange";
 import DevelopmentServices from "./components/DevelopmentServices";
 import Questions from "./components/Questions";
 import ProjectDevelopApproach from "./components/ProjectDevelopApproach";
-import BlogPost from "./components/BlogPost";
-import SuccessStories from "./components/SuccessStories";
 
 
 
 function App() {
   return (
     <section className=" w-full">
-     {/*  <Home />
+      <Home />
       <BelowHome />
      <GridView />
       <DevelopMentSteps />
@@ -26,9 +24,8 @@ function App() {
      <DevelopmentServices />
       <ReadyToChange />
       <ProjectDevelopApproach />
-      <BlogPost /> */}
-      
       <Questions />
+      
 
     </section>
   );

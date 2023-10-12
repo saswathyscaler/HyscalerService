@@ -25,3 +25,44 @@
 .animate {
   max-height: 20rem;
 }
+
+
+.tablist {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.tablist::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+
+
+/* CSS FOR MOUSE ANIMATE  */
+
+.animated-mouse {
+  animation-name: bounce;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-100px);
+  }
+  40% {
+    transform: translateY(-150px);
+  }
+  50% {
+    transform: translateY(-200px);
+  }
+
+  60% {
+    transform: translateY(-360px);
+  }
+}

@@ -13,7 +13,6 @@ import aws from "../assets/aws.svg";
 import azure from "../assets/azure.svg";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import "../styles/tech.css";
 
 import reactJs from "../assets/technologyF/react.svg";
 import next from "../assets/technologyF/next.svg";
@@ -156,7 +155,7 @@ const Technology = () => {
       </TabList>
       
           <TabPanel>
-            <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-3 xsm:grid-cols-2 xxs:grid-cols-1  mt-[10px]   gap-0">
+            <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-3 xxs:grid-cols-2  mt-[10px]   gap-0">
               {applicationDevelopmentImages.map((image, index) => (
                 <div
                   key={index}
