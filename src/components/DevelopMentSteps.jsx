@@ -65,30 +65,30 @@ const DevelopMentSteps = () => {
 
   return (
     <section className="my-10 mx-auto items-center 2xl:pl-60 xl:pl-40 lg:pl-20 md:pl-10 2xl:pr-60 xl:pr-40 lg:pr-20 md:pr-10 sm:px-10 px-5 lg:gap-6 sm:gap-5 xxs:gap-3 text-center">
-      <div className="relative lg:h-[600px] md:h-[600px] sm:h-[550px]  xsm:h-[640px] xxs:h-[650px] xxmm:h-[650px] flex flex-col items-center ">
-        <div className="flex flex-col items-center gap-y-10 lg:gap-y-[5rem] md:gap-y-[6rem] sm:gap-y-[5rem] xs:gap-y-[5rem] xsm:gap-y-[5rem] xxmm:gap-y-[5rem] xxs2:gap-y-[6rem] xxs:gap-y-[5rem] absolute  z-40">
+      <div className="relative 2xl:he-[800px] lg:h-[600px] md:h-[600px] sm:h-[550px]  xsm:h-[640px] xxs:h-[650px]  flex flex-col items-center ">
+        <div className="flex flex-col items-center gap-y-10 2xl:gap-y-[6rem] lg:gap-y-[5rem] md:gap-y-[6rem] sm:gap-y-[5rem] xs:gap-y-[4.5rem] xsm:gap-y-[5rem]  xxs:gap-y-[5rem] absolute  z-40">
           <div className=" flex flex-col gap-y-1 text-left">
             <h1 className="text-left bg-white 
             xxmm:max-w-[82%] xs:max-w-[95%] xxs:max-w-[90%] w-fit pr-2 inline xl:text-[2.2rem] xxs:leading-7 md:leading-[66px]  sm:leading-8 font-[800]  lg:text-[35px] md:text-[35px] xsm:text-[20px]  xxs:text-[20px] ">
               Our Software Development Steps
             </h1>
-            <div
-              className="font-[500] xl:w-[79%] lg:w-[80%] md:w-[92%] sm:w-[90%] xs:w-[82%]  xsm:w-[85%] xxmm:w-[95%] xxs:w-[95%]
-               xxs:leading-[1.5rem]  xxmm:leading-[1.7rem] sm:leading-[1.8rem]
-             xs:leading-[1.7rem] xsm:leading-[1.6rem] text-[#495459] xl:text-[1.2rem]  sm:text-[1rem] text-[0.8rem] "
+            <p
+              className="font-[500] 2xl:w-[72%]  xl:w-[80%] lg:w-[80%] md:w-[92%] sm:w-[90%] xs:w-[87%]  xsm:w-[85%]  xxs:w-[95%]
+               xxs:leading-[1.5rem] sm:leading-[1.8rem]
+             xs:leading-[1.6rem] xsm:leading-[1.6rem] text-[#495459]  xl:text-[1.2rem]  sm:text-[1rem] text-[0.8rem]"
             >
               Our software development process is a well-oiled machine designed
               to deliver results. We follow industry best practices and a mature
               development methodology to ensure your project's success. Our
               process includes:
-            </div>
+            </p>
           </div>
 
-          <div className="grid grid-cols-2 xsm:grid-cols-2 sm:grid-cols-3 xxs:px-4 xxs:gap-y-5 xxs:gap-x-6  xs:gap-y-6 sm:gap-y-8 gap-x-4 xxs:w-[95%] xsm:w-[80%] mx-auto z-40">
+          <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 xxs:px-4 xxs:gap-y-5 xxs:gap-x-6  xs:gap-y-6 sm:gap-y-8 gap-x-4 xxs:w-[95%] xsm:w-[80%] mx-auto z-40">
             {divContent.map((item, index) => (
               <div
                 key={index}
-                className="  lg:h-[8rem]  md:h-[7rem] sm:h-[6rem]  xsm:w-[90%] xxs:h-[5rem]  border-2 border-[#0068FF] rounded-[15px] flex flex-col items-center justify-center shadow-custom bg-white"
+                className="  2xl:h-[9rem] lg:h-[8rem]  md:h-[7rem] sm:h-[6rem]  xsm:w-[90%] xxs:h-[5rem]  border-2 border-[#0068FF] rounded-[15px] flex flex-col items-center justify-center shadow-[4px_4px_2px_2px_#0064B0]   bg-white"
               >
                 <img
                   src={item.icon}
@@ -103,25 +103,25 @@ const DevelopMentSteps = () => {
           </div>
         </div>
 
-        <div className=" xxmm:w-[95%] xsm:h-[93%] xxmm:h-[81%] xxs:w-full xxs:h-full  flex flex-col items-center justify-start z-0">
+        <div className= "  xs:h-[93%]  xs:w-[95%]   flex flex-col items-center justify-start z-0">
           {/* DASSHED --DIV----1\ */}
           <div
-            className="w-full lg:h-[10rem] md:h-[12rem] sm:h-[12rem]  xs2:h-[11rem] xs:h-[11.5rem]  xsm:h-[14rem] xxmm:h-[17rem] xxs2:h-[16rem] xxs:h-[17rem]
+            className="w-full  2xl:h-[10  rem]  lg:h-[10rem] md:h-[12rem] sm:h-[12rem]  xs:h-[10rem]  xsm:h-[14rem] xxs:h-[17rem]
             md:mt-[2.1rem] sm:mt-[1.2rem]  xsm:mt-[0.7rem] mt-1 border-2  border-[#0064B0] border-dashed border-l-0 border-b-0 "
           ></div>
           {/* DASSHED --DIV---2\ */}
 
-          <div className="w-full lg:h-[7rem] md:h-[6rem] sm:h-[5rem] xs2:h-[5rem] xs:h-[6rem] xsm:h-[5rem] xxs2:h-[5rem] xxmm:h-[6rem] xxs:h-[5rem] border-2  border-[#0064B0] border-dashed border-r-0 "></div>
+          <div className="w-full 2xl:h-[8.5rem] lg:h-[7rem] md:h-[6rem] sm:h-[5rem] xs:h-[5.2rem]  xxs:h-0 border-2  border-[#0064B0] border-dashed border-r-0 "></div>
           {/* DASSHED --DIV---3\ */}
 
-          <div className="w-full lg:h-[10rem] md:h-[9rem] sm:h-[7.6rem] xs2:h-[6rem]  xs:h-[6.7rem] xsm:h-[6rem] xxmm:h-[7rem] xxs2:h-[6.5rem] xxs:h-[6rem] relative">
+          <div className="w-full 2xl:h-[11rem] lg:h-[10rem] md:h-[9rem] sm:h-[7.6rem]  xs:h-[6.7rem]  xxs:h-0 relative">
             <div className="absolute inset-0 border-2  border-[#0064B0] border-dashed border-l-0 border-t-0"></div>
             <div className="absolute top-6 left-0  sm:w-[15%] h-full bg-white"></div>
           </div>
 
           {/* DASSHED --DIV--4\ */}
 
-          <div className="w-full relative sm:h-0 sm:w-0   xs2:h-[6.5rem] xs:h-[6rem] xsm:h-[6rem] xxmm:h-[8rem] xxs2:h-[6rem] xxs:h-[6rem] border-2  border-[#0064B0] border-dashed border-t-0 border-r-0 ">
+          <div className="w-full relative sm:h-0 sm:w-0   xs:h-[6rem] xsm:h-[6rem]  xxs:h-0 border-2  border-[#0064B0] border-dashed border-t-0 border-r-0 ">
             <div className="absolute top-6 right-0  w-[15%] h-full bg-white"></div>
           </div>
         </div>
